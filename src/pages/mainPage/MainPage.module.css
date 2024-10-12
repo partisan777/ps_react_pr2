@@ -1,0 +1,71 @@
+.main-page {
+    position: relative;
+}
+
+.main-page__label__container {
+    width: 588px;
+    height: 144px;
+    top: 160px;
+    left: 120px;
+    opacity: 0px;
+    align-items: center;
+    position: relative;
+}
+
+.main-page__input__container {
+    width: 384px;
+    height: 64px;
+    padding: 3px 3px 3px 3px;
+    gap: 16px;
+    border-radius: 12px;
+    opacity: 0px;
+    background: #0000001A;
+    border: 1px solid #323B54;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    input {
+        border: none;
+    }
+}
+
+.main-page__input__container_icon {
+    width: 24px;
+    height: 24px;
+    gap: 10px;
+    opacity: 0px;
+}
+
+.main-page__search-container {
+    width: 450px;
+    height: 100px;
+    top: 328px;
+    left: 120px;
+    gap: 0px;
+    opacity: 0px;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-page__film-list-container {
+    top: 508px;
+    /* left: 120px; */
+    left: 20%;
+    display: flex;
+	justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.main-page__signin-form {
+    top: 560px;
+    left: 120px;
+    gap: 16px;
+    opacity: 0px;
+    position: relative;
+    display: block;
+    justify-content: left;
+    align-items: left;
+}

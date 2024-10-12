@@ -1,0 +1,44 @@
+.film-card-item {
+    width: 282px;
+    height: 520px;
+    top: 472px;
+    left: 120px;
+    gap: 0px;
+    border-radius: 12px 0px 0px 0px;
+    opacity: 0px;
+}
+
+.filmi-card-item__image {
+    width: 266px;
+    height: 400px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+.film-card-item__data {
+    width: 157px;
+    height: 80px;
+    padding: 8px 0px 0px 0px;
+    gap: 16px;
+    opacity: 0px;
+}
+
+.film-card-Item__data_text {
+    width: 350px;
+    height: 24px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #EBEEF5;
+}
+
+.film-card-item__rating {
+    top: 45px;
+    left: -100px;
+    position: relative;
+}

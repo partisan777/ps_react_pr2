@@ -1,0 +1,11 @@
+.link  {
+    width: 150px;
+    height: 48px;
+    gap: 8px;
+    opacity: 0px;
+    color:  #A8AEBF;
+}
+
+.link:hover {
+    color: #FFFFFF;
+}
