@@ -6,10 +6,10 @@ import cn from 'classnames';
 import { useContext, useRef, FormEvent } from 'react';
 import { UserContext } from '../context/UserContext';
 import { UserContextData } from '../context/interfaces';
-import { FormProps } from './interfaces';
+import { LoginFormProps } from './interfaces';
 
 
-export const SigninForm = (props: FormProps) => {
+export const SigninForm = (props: LoginFormProps) => {
     const { styles } = props;
     const loginRef = useRef<HTMLInputElement | null>(null);
     const { setAuthUser } = useContext<UserContextData>(UserContext);

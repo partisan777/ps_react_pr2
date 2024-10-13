@@ -1,5 +1,5 @@
 import { FormHTMLAttributes } from "react";
 
-export interface FormProps extends FormHTMLAttributes<HTMLFormElement> {
+export interface LoginFormProps extends FormHTMLAttributes<HTMLFormElement> {
     styles: string
 };

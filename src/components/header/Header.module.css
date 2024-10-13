@@ -23,6 +23,7 @@
     opacity: 0px;
     display: flex;
     position: relative;
+    /* color: #A8AEBF; */
 }
 
 .navbar__links__link {
@@ -33,4 +34,13 @@
     opacity: 0px;
     justify-content: center;
     display: flex;
+    color:  #A8AEBF;
+}
+
+.active-link {
+    color: #FFFFFF;
+}
+
+.navbar__links__link:hover {
+    color: #FFFFFF;
 }

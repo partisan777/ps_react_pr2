@@ -1,9 +1,10 @@
 import mainLayoutStyles from './MainLayout.module.css';
 import { useEffect, useContext } from 'react';
-import { UserContext } from '../context/UserContext';
+import { UserContext, UserContextProvider } from '../context/UserContext';
 import { Header } from '../header/Header';
 import { MainPage } from '../../pages/mainPage/MainPage'
 import {UserContextData } from '../context/interfaces'
+import { Outlet } from 'react-router-dom';
 
 
 export function MainLayout() {
@@ -17,7 +18,7 @@ export function MainLayout() {
   return (
     <div className={mainLayoutStyles['main-layout']}>
       <Header />
-      <MainPage />
+      <Outlet />
      </div>
   );
 };
