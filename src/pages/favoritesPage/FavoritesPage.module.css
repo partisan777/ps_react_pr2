@@ -1,0 +1,13 @@
+.favorites-page {
+    position: relative;
+}
+
+.favorites__film-list-container {
+    top: 508px;
+    /* left: 120px; */
+    left: 10%;
+    display: flex;
+	justify-content: center;
+    align-items: center;
+    position: relative;
+}

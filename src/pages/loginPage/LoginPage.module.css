@@ -1,0 +1,10 @@
+.main-page__signin-form {
+    top: 150px;
+    left: 120px;
+    gap: 16px;
+    opacity: 0px;
+    position: relative;
+    display: block;
+    justify-content: left;
+    align-items: left;
+}

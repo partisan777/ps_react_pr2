@@ -1,0 +1,46 @@
+.search-panel__container {
+    width: 450px;
+    height: 150px;
+    gap: 20px;
+    opacity: 0px;
+    display: block;
+}
+
+.search-panel__input__container {
+    width: 384px;
+    height: 64px;
+    padding: 3px 3px 3px 3px;
+    gap: 16px;
+    border-radius: 12px;
+    opacity: 0px;
+    background: #0000001A;
+    border: 1px solid #323B54;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    input {
+        border: none;
+    }
+}
+
+.search-panel__input__container_icon {
+    width: 24px;
+    height: 24px;
+    gap: 10px;
+    opacity: 0px;
+}
+
+.search-panel__label__container {
+    width: 588px;
+    height: 200px;
+    opacity: 0px;
+    align-items: center;
+    position: relative;
+}
+
+.search-panel__search-container {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
